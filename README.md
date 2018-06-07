@@ -17,13 +17,21 @@
 
 在module的gradle
 ```
-    implementation 'com.byc:plateInputKeyboard:1.0.0'
+    implementation 'com.byc:plateInputKeyboard:1.0.1'
 ```
 
 #### 方法一
 * 使用EditText 输入
  ```
         keyBoardDialogUtils = new PlateInputKeyBoardDialogUtils(this);
+        //设置完成按钮监听
+        keyBoardDialogUtils.setOnKeyboardFinishListener(new PlateInputKeyBoardDialogUtils.OnKeyboardFinishListener() {
+            @Override
+            public void onFinish(String input) {
+                Log.e("input",input);
+            }
+        });
+        
         et = (EditText) findViewById(R.id.et);
         et.setOnClickListener(new View.OnClickListener() {
              @Override
@@ -53,10 +61,8 @@
             }
         });
     ```
-
-
-
-
-
-## 参考
-* https://github.com/peiniwan/SafeKeyBoard
+    
+    
+    
+####  参考
+ https://github.com/peiniwan/SafeKeyBoard
