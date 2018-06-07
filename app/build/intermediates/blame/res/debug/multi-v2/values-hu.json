@@ -4,7 +4,7 @@
             "outputFile": "D:\\AndroidStudioProjects\\SafeKeyBoard-master\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-hu\\values-hu.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\byc\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\be8ce9e44d05c1e3bd1e2d1804d8c38c\\res\\values-hu\\values-hu.xml",
+                    "source": "C:\\Users\\byc\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\b352adb911f9088e5d26ca8e3b507300\\res\\values-hu\\values-hu.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -14,7 +14,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\byc\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.1.1.aar\\e13da5053578872d88f0829fee133a50\\res\\values-hu\\values-hu.xml",
+                    "source": "C:\\Users\\byc\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.1.1.aar\\a076054035332f834c990fa4f9446c1b\\res\\values-hu\\values-hu.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

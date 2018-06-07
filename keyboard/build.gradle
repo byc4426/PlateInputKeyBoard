@@ -1,4 +1,5 @@
 apply plugin: 'com.android.library'
+apply plugin: 'com.novoda.bintray-release'
 //键盘
 android {
     compileSdkVersion 27
@@ -9,9 +10,6 @@ android {
         targetSdkVersion 27
         versionCode 1
         versionName "1.0"
-
-        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
-
     }
     buildTypes {
         release {
@@ -19,21 +17,26 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
     }
-    useLibrary 'org.apache.http.legacy'
-    resourcePrefix "keyboard_"
 
-}
-
-repositories {
-    flatDir {
-        dirs 'libs'
+    lintOptions {
+        abortOnError false
     }
-    maven { url "https://oss.sonatype.org/content/repositories/snapshots/" }
 }
+
+
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
     androidTestImplementation('com.android.support.test.espresso:espresso-core:2.2.2', {
         exclude group: 'com.android.support', module: 'support-annotations'
     })
 
+}
+
+publish {
+    userOrg = 'byc295'//bintray.com用户名
+    groupId = 'com.byc'//jcenter上的路径
+    artifactId = 'plateInputKeyboard'//项目名称
+    publishVersion = '1.0.0'//版本号
+    desc = 'Oh hi, this is a nice plateInputKeyboard'//描述，不重要
+    website = 'https://github.com/byc4426/PlateInputKeyBoard'//网站，不重要；尽量模拟github上的地址，例如我这样的；当然你有地址最好了
 }

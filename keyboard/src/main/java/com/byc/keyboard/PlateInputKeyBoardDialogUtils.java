@@ -21,15 +21,15 @@ import java.util.ArrayList;
 import java.util.List;
 
 
-public class KeyBoardDialogUtils implements View.OnClickListener {
+public class PlateInputKeyBoardDialogUtils implements View.OnClickListener {
     protected View view;
     protected Dialog popWindow;
     protected Activity mContext;
     private EditText contentView;
     private List<String> contentList;
-    private KhKeyboardView keyboardUtil;
+    private PlateInputKeyboardView keyboardUtil;
 
-    public KeyBoardDialogUtils(Activity mContext) {
+    public PlateInputKeyBoardDialogUtils(Activity mContext) {
         try {
             this.mContext = mContext;
             if (contentList == null) {
@@ -71,7 +71,7 @@ public class KeyBoardDialogUtils implements View.OnClickListener {
     private void initView() {
         try {
             if (keyboardUtil == null)
-                keyboardUtil = new KhKeyboardView(mContext, view);
+                keyboardUtil = new PlateInputKeyboardView(mContext, view);
 
         } catch (Exception e) {
             e.printStackTrace();

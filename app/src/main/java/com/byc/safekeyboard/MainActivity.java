@@ -7,14 +7,12 @@ import android.widget.EditText;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
-import com.byc.keyboard.KeyBoardDialogUtils;
-
-import safekeyboard.byc.com.safekeyboard.R;
+import com.byc.keyboard.PlateInputKeyBoardDialogUtils;
 
 
 public class MainActivity extends AppCompatActivity {
 
-    private KeyBoardDialogUtils keyBoardDialogUtils;
+    private PlateInputKeyBoardDialogUtils keyBoardDialogUtils;
     private EditText et;
     private TextView[] tvList;
     private LinearLayout linear_pass;
@@ -36,7 +34,7 @@ public class MainActivity extends AppCompatActivity {
         tvList[6] = (TextView) findViewById(R.id.tv_pass7);
         tvList[7] = (TextView) findViewById(R.id.tv_pass8);
 
-        keyBoardDialogUtils = new KeyBoardDialogUtils(this);
+        keyBoardDialogUtils = new PlateInputKeyBoardDialogUtils(this);
         et.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

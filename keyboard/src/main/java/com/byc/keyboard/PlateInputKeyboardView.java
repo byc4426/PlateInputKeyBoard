@@ -12,7 +12,7 @@ import android.widget.EditText;
 import android.widget.TextView;
 
 
-public class KhKeyboardView {
+public class PlateInputKeyboardView {
     private Activity mContext;
     private View parentView;
     private EditText text;
@@ -40,7 +40,7 @@ public class KhKeyboardView {
         this.tvList = tvList;
     }
 
-    public KhKeyboardView(Activity context, View view) {
+    public PlateInputKeyboardView(Activity context, View view) {
         mContext = context;
         parentView = view;
 
