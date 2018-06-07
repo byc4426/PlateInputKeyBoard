@@ -1,0 +1,108 @@
+-- Merging decision tree log ---
+manifest
+ADDED from D:\AndroidStudioProjects\SafeKeyBoard-master\app\src\main\AndroidManifest.xml:2:1-21:12
+INJECTED from D:\AndroidStudioProjects\SafeKeyBoard-master\app\src\main\AndroidManifest.xml:2:1-21:12
+INJECTED from D:\AndroidStudioProjects\SafeKeyBoard-master\app\src\main\AndroidManifest.xml:2:1-21:12
+INJECTED from D:\AndroidStudioProjects\SafeKeyBoard-master\app\src\main\AndroidManifest.xml:2:1-21:12
+MERGED from [com.android.support:appcompat-v7:27.1.1] C:\Users\byc\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.1.aar\be8ce9e44d05c1e3bd1e2d1804d8c38c\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support.constraint:constraint-layout:1.1.0] C:\Users\byc\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.0.aar\5496817961616b2ad6afd87d5a7a65a1\AndroidManifest.xml:2:1-11:12
+MERGED from [:keyboard] D:\AndroidStudioProjects\SafeKeyBoard-master\keyboard\build\intermediates\manifests\full\debug\AndroidManifest.xml:2:1-16:12
+MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\byc\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.1.aar\4e45f35b38533a14fac697eb9b6a29ee\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] C:\Users\byc\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.1.1.aar\5991a57edefffcd44de460caaaf166a3\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:27.1.1] C:\Users\byc\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.1.1.aar\9e1b6a4cff622f1a0eb2d84388eae6d9\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:27.1.1] C:\Users\byc\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.1.1.aar\261ce8915e0f4cbd0885885a65293596\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:27.1.1] C:\Users\byc\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.1.1.aar\89ccf1c5d84d5f164fb8551461f05631\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:27.1.1] C:\Users\byc\.gradle\caches\transforms-1\files-1.1\support-compat-27.1.1.aar\e13da5053578872d88f0829fee133a50\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\byc\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.0.aar\d1daede60a6a4a3dbc5308d755a2989d\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\byc\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.0.aar\9dad11c033296387c4f7972e31233f0b\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\byc\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\90a34b9d4afcd63b69c43d3ec1746719\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.0] C:\Users\byc\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\36b1ed8f7541e31c11f417ca23f306b4\AndroidManifest.xml:17:1-22:12
+INJECTED from D:\AndroidStudioProjects\SafeKeyBoard-master\app\src\main\AndroidManifest.xml:2:1-21:12
+INJECTED from D:\AndroidStudioProjects\SafeKeyBoard-master\app\src\main\AndroidManifest.xml:2:1-21:12
+INJECTED from D:\AndroidStudioProjects\SafeKeyBoard-master\app\src\main\AndroidManifest.xml:2:1-21:12
+	package
+		ADDED from D:\AndroidStudioProjects\SafeKeyBoard-master\app\src\main\AndroidManifest.xml:3:5-48
+		INJECTED from D:\AndroidStudioProjects\SafeKeyBoard-master\app\src\main\AndroidManifest.xml
+		INJECTED from D:\AndroidStudioProjects\SafeKeyBoard-master\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from D:\AndroidStudioProjects\SafeKeyBoard-master\app\src\main\AndroidManifest.xml
+		ADDED from D:\AndroidStudioProjects\SafeKeyBoard-master\app\src\main\AndroidManifest.xml:2:1-21:12
+		INJECTED from D:\AndroidStudioProjects\SafeKeyBoard-master\app\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from D:\AndroidStudioProjects\SafeKeyBoard-master\app\src\main\AndroidManifest.xml
+		ADDED from D:\AndroidStudioProjects\SafeKeyBoard-master\app\src\main\AndroidManifest.xml:2:1-21:12
+		INJECTED from D:\AndroidStudioProjects\SafeKeyBoard-master\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from D:\AndroidStudioProjects\SafeKeyBoard-master\app\src\main\AndroidManifest.xml:2:11-69
+application
+ADDED from D:\AndroidStudioProjects\SafeKeyBoard-master\app\src\main\AndroidManifest.xml:5:5-19:19
+MERGED from [com.android.support.constraint:constraint-layout:1.1.0] C:\Users\byc\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.0.aar\5496817961616b2ad6afd87d5a7a65a1\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.0] C:\Users\byc\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.0.aar\5496817961616b2ad6afd87d5a7a65a1\AndroidManifest.xml:9:5-20
+MERGED from [:keyboard] D:\AndroidStudioProjects\SafeKeyBoard-master\keyboard\build\intermediates\manifests\full\debug\AndroidManifest.xml:11:5-14:19
+MERGED from [:keyboard] D:\AndroidStudioProjects\SafeKeyBoard-master\keyboard\build\intermediates\manifests\full\debug\AndroidManifest.xml:11:5-14:19
+	android:supportsRtl
+		ADDED from D:\AndroidStudioProjects\SafeKeyBoard-master\app\src\main\AndroidManifest.xml:10:9-35
+	android:label
+		ADDED from D:\AndroidStudioProjects\SafeKeyBoard-master\app\src\main\AndroidManifest.xml:8:9-41
+	android:roundIcon
+		ADDED from D:\AndroidStudioProjects\SafeKeyBoard-master\app\src\main\AndroidManifest.xml:9:9-54
+	android:icon
+		ADDED from D:\AndroidStudioProjects\SafeKeyBoard-master\app\src\main\AndroidManifest.xml:7:9-43
+	android:allowBackup
+		ADDED from D:\AndroidStudioProjects\SafeKeyBoard-master\app\src\main\AndroidManifest.xml:6:9-35
+	android:theme
+		ADDED from D:\AndroidStudioProjects\SafeKeyBoard-master\app\src\main\AndroidManifest.xml:11:9-40
+activity#safekeyboard.byc.com.safekeyboard.MainActivity
+ADDED from D:\AndroidStudioProjects\SafeKeyBoard-master\app\src\main\AndroidManifest.xml:12:9-18:20
+	android:name
+		ADDED from D:\AndroidStudioProjects\SafeKeyBoard-master\app\src\main\AndroidManifest.xml:12:19-80
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from D:\AndroidStudioProjects\SafeKeyBoard-master\app\src\main\AndroidManifest.xml:13:13-17:29
+action#android.intent.action.MAIN
+ADDED from D:\AndroidStudioProjects\SafeKeyBoard-master\app\src\main\AndroidManifest.xml:14:17-69
+	android:name
+		ADDED from D:\AndroidStudioProjects\SafeKeyBoard-master\app\src\main\AndroidManifest.xml:14:25-66
+category#android.intent.category.LAUNCHER
+ADDED from D:\AndroidStudioProjects\SafeKeyBoard-master\app\src\main\AndroidManifest.xml:16:17-77
+	android:name
+		ADDED from D:\AndroidStudioProjects\SafeKeyBoard-master\app\src\main\AndroidManifest.xml:16:27-74
+uses-sdk
+INJECTED from D:\AndroidStudioProjects\SafeKeyBoard-master\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from D:\AndroidStudioProjects\SafeKeyBoard-master\app\src\main\AndroidManifest.xml
+INJECTED from D:\AndroidStudioProjects\SafeKeyBoard-master\app\src\main\AndroidManifest.xml
+MERGED from [com.android.support:appcompat-v7:27.1.1] C:\Users\byc\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.1.aar\be8ce9e44d05c1e3bd1e2d1804d8c38c\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.1.1] C:\Users\byc\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.1.aar\be8ce9e44d05c1e3bd1e2d1804d8c38c\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support.constraint:constraint-layout:1.1.0] C:\Users\byc\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.0.aar\5496817961616b2ad6afd87d5a7a65a1\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.1.0] C:\Users\byc\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.0.aar\5496817961616b2ad6afd87d5a7a65a1\AndroidManifest.xml:5:5-7:41
+MERGED from [:keyboard] D:\AndroidStudioProjects\SafeKeyBoard-master\keyboard\build\intermediates\manifests\full\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:keyboard] D:\AndroidStudioProjects\SafeKeyBoard-master\keyboard\build\intermediates\manifests\full\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\byc\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.1.aar\4e45f35b38533a14fac697eb9b6a29ee\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\byc\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.1.aar\4e45f35b38533a14fac697eb9b6a29ee\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] C:\Users\byc\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.1.1.aar\5991a57edefffcd44de460caaaf166a3\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] C:\Users\byc\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.1.1.aar\5991a57edefffcd44de460caaaf166a3\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.1] C:\Users\byc\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.1.1.aar\9e1b6a4cff622f1a0eb2d84388eae6d9\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.1] C:\Users\byc\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.1.1.aar\9e1b6a4cff622f1a0eb2d84388eae6d9\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.1] C:\Users\byc\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.1.1.aar\261ce8915e0f4cbd0885885a65293596\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.1] C:\Users\byc\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.1.1.aar\261ce8915e0f4cbd0885885a65293596\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.1] C:\Users\byc\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.1.1.aar\89ccf1c5d84d5f164fb8551461f05631\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.1] C:\Users\byc\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.1.1.aar\89ccf1c5d84d5f164fb8551461f05631\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.1] C:\Users\byc\.gradle\caches\transforms-1\files-1.1\support-compat-27.1.1.aar\e13da5053578872d88f0829fee133a50\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.1] C:\Users\byc\.gradle\caches\transforms-1\files-1.1\support-compat-27.1.1.aar\e13da5053578872d88f0829fee133a50\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\byc\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.0.aar\d1daede60a6a4a3dbc5308d755a2989d\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\byc\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.0.aar\d1daede60a6a4a3dbc5308d755a2989d\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\byc\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.0.aar\9dad11c033296387c4f7972e31233f0b\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\byc\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.0.aar\9dad11c033296387c4f7972e31233f0b\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\byc\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\90a34b9d4afcd63b69c43d3ec1746719\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\byc\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\90a34b9d4afcd63b69c43d3ec1746719\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] C:\Users\byc\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\36b1ed8f7541e31c11f417ca23f306b4\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] C:\Users\byc\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\36b1ed8f7541e31c11f417ca23f306b4\AndroidManifest.xml:20:5-44
+INJECTED from D:\AndroidStudioProjects\SafeKeyBoard-master\app\src\main\AndroidManifest.xml
+INJECTED from D:\AndroidStudioProjects\SafeKeyBoard-master\app\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from D:\AndroidStudioProjects\SafeKeyBoard-master\app\src\main\AndroidManifest.xml
+		ADDED from D:\AndroidStudioProjects\SafeKeyBoard-master\app\src\main\AndroidManifest.xml
+		INJECTED from D:\AndroidStudioProjects\SafeKeyBoard-master\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from D:\AndroidStudioProjects\SafeKeyBoard-master\app\src\main\AndroidManifest.xml
+		ADDED from D:\AndroidStudioProjects\SafeKeyBoard-master\app\src\main\AndroidManifest.xml
+		INJECTED from D:\AndroidStudioProjects\SafeKeyBoard-master\app\src\main\AndroidManifest.xml
