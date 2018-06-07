@@ -28,6 +28,11 @@ public class PlateInputKeyBoardDialogUtils implements View.OnClickListener {
     private EditText contentView;
     private List<String> contentList;
     private PlateInputKeyboardView keyboardUtil;
+    private OnKeyboardFinishListener onKeyboardFinishListener;
+
+    public void setOnKeyboardFinishListener(OnKeyboardFinishListener onKeyboardFinishListener) {
+        this.onKeyboardFinishListener = onKeyboardFinishListener;
+    }
 
     public PlateInputKeyBoardDialogUtils(Activity mContext) {
         try {
@@ -139,6 +144,9 @@ public class PlateInputKeyBoardDialogUtils implements View.OnClickListener {
         try {
             int i = v.getId();
             if (i == R.id.keyboard_finish) {
+                if (onKeyboardFinishListener != null) {
+                    onKeyboardFinishListener.onFinish(keyboardUtil.getInput());
+                }
                 keyboardUtil.hideKeyboard();
                 dismiss();
             } else if (i == R.id.keyboard_back_hide) {
@@ -150,7 +158,9 @@ public class PlateInputKeyBoardDialogUtils implements View.OnClickListener {
         }
     }
 
-
+    public interface OnKeyboardFinishListener {
+        void onFinish(String input);
+    }
 }
 
 

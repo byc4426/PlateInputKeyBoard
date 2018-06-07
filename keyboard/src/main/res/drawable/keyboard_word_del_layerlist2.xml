@@ -7,8 +7,8 @@
         </shape>
     </item>
     <item
-        android:left="48dp"
-        android:right="48dp"
+        android:left="38dp"
+        android:right="38dp"
         android:top="15dp"
         android:bottom="15dp"
         android:drawable="@drawable/icon_shuzi_keyboard_del_default"

@@ -143,47 +143,46 @@
             android:isSticky="true"
             android:keyEdgeFlags="left"
             android:keyLabel="中文"
-            android:keyWidth="8.8%p" />
+            android:keyWidth="8.9%p" />
 
         <Key
             android:codes="-2"
             android:keyLabel="123"
-            android:keyWidth="8.8%p" />
+            android:keyWidth="8.9%p" />
 
         <Key
             android:codes="90"
-            android:horizontalGap="2%p"
             android:keyLabel="Z"
-            android:keyWidth="8.8%p" />
+            android:keyWidth="8.9%p" />
         <Key
             android:codes="88"
             android:keyLabel="X"
-            android:keyWidth="8.8%p" />
+            android:keyWidth="8.9%p" />
         <Key
             android:codes="67"
             android:keyLabel="C"
-            android:keyWidth="8.8%p" />
+            android:keyWidth="8.9%p" />
         <Key
             android:codes="86"
             android:keyLabel="V"
-            android:keyWidth="8.8%p" />
+            android:keyWidth="8.9%p" />
         <Key
             android:codes="66"
             android:keyLabel="B"
-            android:keyWidth="8.8%p" />
+            android:keyWidth="8.9%p" />
         <Key
             android:codes="78"
             android:keyLabel="N"
-            android:keyWidth="8.8%p" />
+            android:keyWidth="8.9%p" />
         <Key
             android:codes="77"
             android:keyLabel="M"
-            android:keyWidth="8.8%p" />
+            android:keyWidth="8.9%p" />
         <Key
             android:codes="-5"
             android:isRepeatable="true"
             android:keyIcon="@drawable/icon_yingwen_fuhao_keyboard_del_default"
-            android:keyWidth="10.8%p" />
+            android:keyWidth="8.9%p" />
     </Row>
 
 

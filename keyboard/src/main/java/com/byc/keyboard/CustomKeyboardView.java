@@ -32,7 +32,6 @@ public class CustomKeyboardView extends KeyboardView {
         try {
             List<Keyboard.Key> keys = getKeyboard().getKeys();
             for (Keyboard.Key key : keys) {
-                //            Log.e("KEY", "Drawing key with code " + key.codes[0]);
                 if (key.codes[0] == -5) {
                     Drawable dr = (Drawable) context.getResources().getDrawable(R.drawable.keyboard_word_del_layerlist);
                     dr.setBounds(key.x, key.y, key.x + key.width, key.y + key.height);

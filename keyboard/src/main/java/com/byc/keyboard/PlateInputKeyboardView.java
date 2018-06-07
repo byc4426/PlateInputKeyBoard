@@ -6,7 +6,6 @@ import android.inputmethodservice.KeyboardView;
 import android.text.Editable;
 import android.text.InputType;
 import android.text.TextUtils;
-import android.util.Log;
 import android.view.View;
 import android.widget.EditText;
 import android.widget.TextView;
@@ -22,7 +21,7 @@ public class PlateInputKeyboardView {
     private Keyboard mLetterKeyboard;   // 字母键盘
     private Keyboard mSymbolKeyboard;   // 中文键盘
 
-    private boolean isNumber = true;    // 是否数字键盘
+    private boolean isNumber = false;    // 是否数字键盘
     private boolean isSymbol = false;   // 是否是中文
     private View headerView;
     private String[] provinceShort = new String[]{"京", "津", "冀", "鲁", "晋", "蒙", "辽", "吉", "黑", "沪", "苏", "浙", "皖", "闽", "赣", "豫", "鄂", "湘", "粤", "桂", "渝", "川",
@@ -66,7 +65,6 @@ public class PlateInputKeyboardView {
     private KeyboardView.OnKeyboardActionListener listener = new KeyboardView.OnKeyboardActionListener() {
         @Override
         public void onPress(int primaryCode) {
-            Log.d("primaryCode", "onPress--" + primaryCode);
             if (primaryCode == Keyboard.KEYCODE_SHIFT) {
                 mLetterView.setPreviewEnabled(false);
             } else if (primaryCode == Keyboard.KEYCODE_DELETE) {
@@ -81,12 +79,10 @@ public class PlateInputKeyboardView {
 
         @Override
         public void onRelease(int primaryCode) {
-            Log.d("primaryCode", "onRelease--" + primaryCode);
         }
 
         @Override
         public void onKey(int primaryCode, int[] keyCodes) {
-            Log.d("primaryCode", "onKey--" + primaryCode);
             try {
                 if (mEditText == null && tvList == null)
                     return;
@@ -239,6 +235,7 @@ public class PlateInputKeyboardView {
             mLetterView.setVisibility(View.VISIBLE);
             mNumberView.setVisibility(View.INVISIBLE);
             isSymbol = false;
+            isNumber = false;
             mLetterView.setKeyboard(mLetterKeyboard);
         }
     }
@@ -371,5 +368,9 @@ public class PlateInputKeyboardView {
             showLetterView2();
         }
 
+    }
+
+    public String getInput() {
+        return text.getText().toString();
     }
 }
