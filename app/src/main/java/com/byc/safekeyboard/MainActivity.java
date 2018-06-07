@@ -2,6 +2,7 @@ package com.byc.safekeyboard;
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
+import android.util.Log;
 import android.view.View;
 import android.widget.EditText;
 import android.widget.LinearLayout;
@@ -35,6 +36,12 @@ public class MainActivity extends AppCompatActivity {
         tvList[7] = (TextView) findViewById(R.id.tv_pass8);
 
         keyBoardDialogUtils = new PlateInputKeyBoardDialogUtils(this);
+        keyBoardDialogUtils.setOnKeyboardFinishListener(new PlateInputKeyBoardDialogUtils.OnKeyboardFinishListener() {
+            @Override
+            public void onFinish(String input) {
+                Log.e("input",input);
+            }
+        });
         et.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
