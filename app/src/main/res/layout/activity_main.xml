@@ -2,8 +2,7 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context="safekeyboard.ly.com.safekeyboard.MainActivity">
+    android:layout_height="match_parent">
 
 
     <EditText
@@ -11,7 +10,7 @@
         android:layout_width="200dp"
         android:layout_height="wrap_content"
         android:focusableInTouchMode="false"
-        android:hint="xxxx"
+        android:hint="请输入车牌号"
         android:textColor="@android:color/black" />
 
 
@@ -224,6 +223,14 @@
         </LinearLayout>
 
     </LinearLayout>
+
+    <com.byc.keyboard.LicensePlateView
+        android:id="@+id/plate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="200dp">
+
+    </com.byc.keyboard.LicensePlateView>
 
 
 </RelativeLayout>

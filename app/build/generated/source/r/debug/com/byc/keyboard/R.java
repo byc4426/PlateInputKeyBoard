@@ -12,16 +12,23 @@ public final class R {
         public static final int keyboard_anim_start = 0x7f01000d;
     }
     public static final class color {
-        public static final int keyboard_black = 0x7f040032;
-        public static final int keyboard_colorAccent = 0x7f040033;
-        public static final int keyboard_colorPrimary = 0x7f040034;
-        public static final int keyboard_colorPrimaryDark = 0x7f040035;
-        public static final int keyboard_gray = 0x7f040036;
-        public static final int keyboard_green = 0x7f040037;
-        public static final int keyboard_keyTextColor = 0x7f040038;
-        public static final int keyboard_red = 0x7f040039;
-        public static final int keyboard_transparent = 0x7f04003a;
-        public static final int keyboard_white = 0x7f04003b;
+        public static final int colorBlack = 0x7f040027;
+        public static final int colorCodeGray = 0x7f040028;
+        public static final int colorKeyboardBg = 0x7f040029;
+        public static final int colorKeyboardBlue = 0x7f04002a;
+        public static final int colorKeyboardGray = 0x7f04002b;
+        public static final int colorMainBlue = 0x7f04002c;
+        public static final int colorWhite = 0x7f04002f;
+        public static final int keyboard_black = 0x7f040039;
+        public static final int keyboard_colorAccent = 0x7f04003a;
+        public static final int keyboard_colorPrimary = 0x7f04003b;
+        public static final int keyboard_colorPrimaryDark = 0x7f04003c;
+        public static final int keyboard_gray = 0x7f04003d;
+        public static final int keyboard_green = 0x7f04003e;
+        public static final int keyboard_keyTextColor = 0x7f04003f;
+        public static final int keyboard_red = 0x7f040040;
+        public static final int keyboard_transparent = 0x7f040041;
+        public static final int keyboard_white = 0x7f040042;
     }
     public static final class dimen {
         public static final int keyboard_activity_horizontal_margin = 0x7f050059;
@@ -53,6 +60,17 @@ public final class R {
         public static final int keyboard_word_del_layerlist2 = 0x7f060066;
         public static final int keyboard_word_shift_layerlist = 0x7f060067;
         public static final int keyboard_word_shift_layerlist_da = 0x7f060068;
+        public static final int license_plate_code_gray_bg = 0x7f060069;
+        public static final int license_plate_first_view_all_gray = 0x7f06006a;
+        public static final int license_plate_first_view_blue = 0x7f06006b;
+        public static final int license_plate_first_view_gray = 0x7f06006c;
+        public static final int license_plate_keyboard_text_bg = 0x7f06006d;
+        public static final int license_plate_last_view_bg = 0x7f06006e;
+        public static final int license_plate_last_view_blue = 0x7f06006f;
+        public static final int license_plate_mid_view_bg = 0x7f060070;
+        public static final int license_plate_mid_view_blue = 0x7f060071;
+        public static final int license_plate_view_half_gray = 0x7f060072;
+        public static final int license_plate_view_right_gray = 0x7f060073;
     }
     public static final class id {
         public static final int keyboard_back_hide = 0x7f070047;
@@ -61,8 +79,18 @@ public final class R {
         public static final int keyboard_layer = 0x7f07004a;
         public static final int keyboard_view = 0x7f07004b;
         public static final int keyboard_view_2 = 0x7f07004c;
-        public static final int rl_key = 0x7f070066;
-        public static final int text = 0x7f070087;
+        public static final int rl_key = 0x7f070067;
+        public static final int state_touch_scale_rotate = 0x7f070084;
+        public static final int text = 0x7f070089;
+        public static final int tv_pass1 = 0x7f070093;
+        public static final int tv_pass2 = 0x7f070094;
+        public static final int tv_pass3 = 0x7f070095;
+        public static final int tv_pass4 = 0x7f070096;
+        public static final int tv_pass5 = 0x7f070097;
+        public static final int tv_pass6 = 0x7f070098;
+        public static final int tv_pass7 = 0x7f070099;
+        public static final int tv_pass8 = 0x7f07009a;
+        public static final int view_image_watcher = 0x7f07009e;
     }
     public static final class layout {
         public static final int keyboard_key_board_popu = 0x7f09001c;
