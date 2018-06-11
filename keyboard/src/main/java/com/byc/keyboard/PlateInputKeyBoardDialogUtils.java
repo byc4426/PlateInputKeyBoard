@@ -29,6 +29,7 @@ public class PlateInputKeyBoardDialogUtils implements View.OnClickListener {
     private List<String> contentList;
     private PlateInputKeyboardView keyboardUtil;
     private OnKeyboardFinishListener onKeyboardFinishListener;
+    private LicensePlateView plateView;
 
     public void setOnKeyboardFinishListener(OnKeyboardFinishListener onKeyboardFinishListener) {
         this.onKeyboardFinishListener = onKeyboardFinishListener;
@@ -126,8 +127,15 @@ public class PlateInputKeyBoardDialogUtils implements View.OnClickListener {
     }
 
     public void show(TextView[] tvList) {
+        this.plateView = null;
         popWindow.show();
         keyboardUtil.showKeyboard(tvList);
+    }
+
+    public void show(LicensePlateView plateView) {
+        this.plateView = plateView;
+        popWindow.show();
+        keyboardUtil.showKeyboard(plateView);
     }
 
 
@@ -146,6 +154,9 @@ public class PlateInputKeyBoardDialogUtils implements View.OnClickListener {
             if (i == R.id.keyboard_finish) {
                 if (onKeyboardFinishListener != null) {
                     onKeyboardFinishListener.onFinish(keyboardUtil.getInput());
+                }
+                if(plateView!=null){
+                    plateView.clearFocus();
                 }
                 keyboardUtil.hideKeyboard();
                 dismiss();

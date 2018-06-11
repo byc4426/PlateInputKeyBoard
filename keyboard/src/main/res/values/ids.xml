@@ -1,0 +1,13 @@
+<resources>
+    <item name="tv_pass1" type="id"/>
+    <item name="tv_pass2" type="id"/>
+    <item name="tv_pass3" type="id"/>
+    <item name="tv_pass4" type="id"/>
+    <item name="tv_pass5" type="id"/>
+    <item name="tv_pass6" type="id"/>
+    <item name="tv_pass7" type="id"/>
+    <item name="tv_pass8" type="id"/>
+    <item name="state_touch_scale_rotate" type="id"/>
+
+    <item name="view_image_watcher" type="id" />
+</resources>

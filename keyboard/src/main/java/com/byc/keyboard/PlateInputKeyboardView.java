@@ -91,8 +91,13 @@ public class PlateInputKeyboardView {
                         // 隐藏键盘
                         hideKeyboard();
                     } else if (primaryCode == Keyboard.KEYCODE_DELETE || primaryCode == -35) {
-                        // 回退键,删除字符
-                        currentEditText--;
+                        if (currentEditText > tvList.length - 1) {
+                            currentEditText = tvList.length - 1;
+                        }
+                        if (TextUtils.isEmpty(tvList[currentEditText].getText().toString())) {
+                            // 回退键,删除字符
+                            currentEditText--;
+                        }
                         if (currentEditText < 0) {
                             currentEditText = 0;
                         }
@@ -105,6 +110,9 @@ public class PlateInputKeyboardView {
                             currentEditText = 0;
                         }
                         setText(tvList);
+                        if (plateView != null) {
+                            plateView.setTextViewsBackground(currentEditText);
+                        }
                     } else if (primaryCode == Keyboard.KEYCODE_MODE_CHANGE) {
                         // 数字与字母键盘互换
                         if (isNumber) {
@@ -148,6 +156,9 @@ public class PlateInputKeyboardView {
                             currentEditText++;
                         }
                         setText(tvList);
+                        if (plateView != null && currentEditText < tvList.length) {
+                            plateView.setTextViewsBackground(currentEditText);
+                        }
                     }
                 } else {
                     Editable editable = mEditText.getText();
@@ -359,6 +370,9 @@ public class PlateInputKeyboardView {
         for (int i = 0; i < tvList.length; i++) {
             if (TextUtils.isEmpty(tvList[i].getText().toString())) {
                 currentEditText = i;
+                if (plateView != null) {
+                    plateView.setTextViewsBackground(currentEditText);
+                }
                 break;
             }
         }
@@ -369,6 +383,21 @@ public class PlateInputKeyboardView {
         }
 
     }
+
+    private LicensePlateView plateView;
+
+    public void showKeyboard(final LicensePlateView plateView) {
+        this.plateView = plateView;
+        showKeyboard(plateView.getTextViews());
+        plateView.setOnSelect(new LicensePlateView.OnSelect() {
+            @Override
+            public void select(int select) {
+                currentEditText = select;
+                plateView.setTextViewsBackground(currentEditText);
+            }
+        });
+    }
+
 
     public String getInput() {
         return text.getText().toString();
